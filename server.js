@@ -52,4 +52,5 @@ app.post("/books", function(req, res) {
     books.push(book);
     res.redirect("/");
 });
-app.listen("https://express-pug-ts.herokuapp.com/", function() { return console.log("Magic happens at : 3000"); });
+
+app.listen(process.env.PORT || 3000, function() { return console.log("Magic happens at : 3000"); });
