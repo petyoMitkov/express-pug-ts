@@ -1,0 +1,11 @@
+extends ../_layout
+
+block container
+    h2 Add book
+    form(action="/books", method="post") 
+        label(for="title") Enter book title 
+            br
+            input.form-control(name="title")
+        button.btn.btn-success Add Book
+        
+
