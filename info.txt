@@ -31,3 +31,7 @@ Others:
     npm install --save-dev nodemon
 
     tsc -init (create tsconfig.json)
+
+gulpfile.js
+    npm install --save-dev gulp gulp-typescript
+    npm install -g gulp-cli
